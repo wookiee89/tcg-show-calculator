@@ -17,7 +17,6 @@ dist-ssr
 *.xlsx
 requirements.md
 misprint_calculator_requirements.md
-README.md
 
 # Editor directories and files
 .vscode/*
