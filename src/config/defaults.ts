@@ -102,7 +102,7 @@ export const DEFAULT_CONFIG: AppConfig = {
   },
 
   branding: {
-    businessName: 'Woobul Collectibles',
+    businessName: 'TCG Show Calculator',
     primaryColor: '#2F5496',
     accentColor: '#375623',
     warningColor: '#C00000',

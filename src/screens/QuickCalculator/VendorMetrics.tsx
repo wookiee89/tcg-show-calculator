@@ -10,7 +10,7 @@ export function VendorMetrics({ result }: VendorMetricsProps) {
   if (result.doNotBuy || result.cashOffer <= 0) return null;
 
   return (
-    <Collapsible title="Vendor Metrics (Jay only)">
+    <Collapsible title="Vendor Metrics">
       <div className="space-y-3 text-sm">
         {/* Resale Net */}
         <div>
@@ -27,6 +27,7 @@ export function VendorMetrics({ result }: VendorMetricsProps) {
             <div className="bg-gray-50 rounded-lg p-2">
               <p className="text-xs text-brand-text-muted">Mana Pool</p>
               <p className="font-semibold">{formatCurrency(result.resale.manaPoolNet)}</p>
+              <p className="text-[10px] text-brand-text-muted">MTG only</p>
             </div>
             <div className="bg-gray-50 rounded-lg p-2">
               <p className="text-xs text-brand-text-muted">In-Person</p>

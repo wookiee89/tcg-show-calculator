@@ -11,8 +11,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Woobul Show Calculator',
-        short_name: 'Woobul Calc',
+        name: 'TCG Show Calculator',
+        short_name: 'TCG Calc',
         description: 'Trading card show buy/sell calculator',
         theme_color: '#2F5496',
         background_color: '#ffffff',

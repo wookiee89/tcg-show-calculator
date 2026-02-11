@@ -82,7 +82,7 @@ export function MisprintResults({ result, marketValue }: MisprintResultsProps) {
             <span className="font-medium">{formatCurrency(result.resale.shopifyNet)}</span>
           </div>
           <div className="flex justify-between">
-            <span className="text-brand-text-muted">Mana Pool Net</span>
+            <span className="text-brand-text-muted">Mana Pool Net <span className="text-[10px]">(MTG only)</span></span>
             <span className="font-medium">{formatCurrency(result.resale.manaPoolNet)}</span>
           </div>
           <div className="flex justify-between">
