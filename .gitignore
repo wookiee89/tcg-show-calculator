@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+# Business / reference docs (keep local only)
+*.docx
+*.xlsx
+requirements.md
+misprint_calculator_requirements.md
+README.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
